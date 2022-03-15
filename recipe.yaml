@@ -73,11 +73,6 @@ tasks:
     dest: ./resources/EasyAdmin
 
   - action: download_github
-    src: https://github.com/thelindat/mdt
-    ref: 0c804de3cd497d70d8ae76bf1699d76d4c9d94fc
-    dest: ./resources/mdt
-
-  - action: download_github
     src: https://github.com/DevTestingPizza/vSync
     ref: 65f0e3cdd5692b619985a7df6297ffca7db41525
     dest: ./tmp/vSync
